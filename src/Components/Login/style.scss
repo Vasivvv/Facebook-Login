@@ -1,0 +1,81 @@
+
+.box {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 396px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+input {
+    border: 1px solid #dddfe2;
+    height: 22px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+.email {
+    margin-bottom: 6px;
+}
+
+.pass {
+    margin-bottom: 6px;
+}
+
+.login {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    color: #fff;
+    box-sizing: content-box;
+    font-weight: bold;
+}
+
+.top-text {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 24px 0 16px 0;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 30px;
+width: 240px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+}
+
+.forgot{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sign{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bottom-texts{
+    text-align: center;
+    margin: 20px;
+}

@@ -1,0 +1,162 @@
+.logo {
+    margin-top: 30px;
+width: 240px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+}
+.names{
+    display: flex;
+}
+.box-1{
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    position: relative;
+    width: 432px;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.text-1{
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #1c1e21;
+    font-weight: 600;
+}
+
+.text-2{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #606770;
+    font-weight: normal;
+}
+.box-2{
+    margin-top: 1px;
+    background-color: #fff;
+    border-radius: 0px 0px 8PX 8PX;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    position: relative;
+    width: 432px;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.left-name{
+    width: 170px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.right-name{
+    width: 160px;
+}
+.reg-mail{
+    width: 375px;
+    margin-bottom: 5px;
+}
+.reg-pass{
+    width: 375px;
+}
+.birthday-op{
+    border: 1px solid #ccd0d5;
+    width: 130px;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    margin-right: 6px;
+}
+.b-text{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.birthday{
+    display:flex ;
+}
+.gender-text{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.gender {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+margin-top: 5px;
+
+
+    form {
+        display: flex;
+        width: 400px;
+        justify-content: center;
+        gap: 5px;
+
+
+        div {
+            width: 100%;
+            border-radius: 6px;
+            font-size: 17px;
+            padding: 6px 13px;
+            width: 360px;
+            border: 1px solid rgba(33, 33, 33, 0.419);
+            flex-direction: row-reverse;
+            display: flex;
+
+
+            input {
+                width: 20%;
+            }
+
+            label {
+                width: 80%;
+            }
+
+        }
+    }
+
+}
+p{
+    color: #777;
+    font-size: 11px;
+    margin: 1em 0;
+}
+.last-button{
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    cursor: pointer;
+}
+.button-bottom{
+    text-align: center;
+}
+.already{
+    text-align: center;
+    margin-top: 10px;
+}
